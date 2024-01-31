@@ -1,0 +1,628 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+video{
+    width:100%;
+}
+.newcontainer{
+    position: relative;
+    width:min(100%,100%)
+}
+.newcontainer img{
+   width:100%;
+   height: auto;
+}
+.img-container{
+    position: absolute;
+    top:80px;
+    width: 25%;
+    margin-left: 35%;
+
+}
+.text-container{
+    position: absolute;
+    top:50px;
+    width:100%;
+    height:auto;
+    
+}
+.text-container h3{
+    padding-top: 280px;
+    padding-left: 0px;
+    
+    font-size:40px;
+    font-family:'Dancing Script';
+    text-align: center;
+    color: blueviolet;
+}
+.text-container h4{
+    padding-top:30px;
+    padding-left:400px;
+    letter-spacing: 2px;
+    
+    font-size:30px;
+    font-family:'Dancing Script';
+    
+    color: brown;
+}
+.save {
+    position: absolute;
+    top:402px;
+    margin-left: 637px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #1E90FF;
+    width: 90px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.1)
+    
+    
+
+  }
+.timer {
+    padding-top: 30px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding-left:300px;
+    color: rgb(26, 0, 105);
+    width:100%;
+  }
+
+.wed{
+    position: relative;
+    width: 100%;
+    top:-4px;
+}
+.wed img{
+    width:100%;
+    height:auto;
+}
+.container{
+    width: 100%;
+    position: relative;
+    transform: translate(-50%,0%);
+    left: 50%;
+    overflow: hidden;
+    border: 0px solid #ffffff;
+    border-radius: 0px;
+    box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+    top:-6px;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 12s infinite;
+}
+img{
+    width: 100%;
+}
+
+
+
+
+.divmale{
+    position: relative;
+    background:#dcdddf;
+    width:min(100%,100%);
+    height: 500px;
+    top:-4px;
+    
+}
+.divmale img{
+    width:100%;
+    height:auto;
+}
+.imgmale{
+    position: absolute;
+    top: 0;
+}
+.imgmale img{
+    width:400px;
+    padding-top: 50px;
+    padding-left: 50px;
+
+
+}
+.textmale{
+    position: absolute;
+    top:0;
+    width:100%;
+    height:500px
+}
+.textmale h2{
+    padding-top: 200px;
+    font-size: 40px;
+    padding-left: 42%;
+    font-family:'Dancing Script';
+
+}
+
+.divfemale{
+    position: relative;
+    background:#dcdddf;
+    width:min(100%,100%);
+    height:500px;
+}
+.imgfemale{
+    position: absolute;
+    top: 0;
+    
+
+}
+.imgfemale img{
+    width:400px;
+    padding-top: 50px;
+    margin-left: 600px;
+    
+    
+}
+.textfemale{
+    position: absolute;
+    top:0;
+    width:100%;
+    height:500px
+    
+}
+.textfemale h2{
+    padding-top: 200px;
+    font-size: 80px;
+    padding-left: 10%;
+    font-family:'Dancing Script';
+}
+.divfunction{
+    position: relative;
+    background:white;
+    width:100%;
+    height:4000px;
+}
+
+.divfunction h1{
+    padding-top: 200px;
+    font-size: 80px;
+    text-align: center;
+    font-family:'Dancing Script';
+}
+.funcimg{
+    width:500px;
+    height:335px;
+    margin-top: 100px;
+    margin-left: 250px;
+    background: rgb(251, 130, 150);
+    
+}
+.funcimg img{
+    width:490px;
+    height:auto;
+    padding-top: 15px;
+    padding-left: 10px;
+    background: rgb(251, 130, 150);
+    border: 10px;
+    border-bottom: rgb(251, 130, 150);
+}
+
+.nichyam{
+    width:100%;
+    height:auto;
+   
+    
+}
+.nichyam img{
+    width:490px;
+    height:auto;
+    padding-top: 15px;
+    margin-left:250px;
+}
+.rec img{
+    width:490px;
+    height:auto;
+    padding-top: 50px;
+    margin-left:250px;
+}
+.upa img{
+    width:490px;
+    height:auto;
+    padding-top: 50px;
+    margin-left:250px;
+}
+.muhr img{
+    width:490px;
+    height:auto;
+    padding-top: 50px;
+    margin-left:250px;
+}
+.adress img{
+    width: 490px;
+    height:auto;
+    padding-top: 50px;
+    margin-left:250px;
+}
+.map{
+    width:100%;
+    height:auto;
+    background-color: #ffffff;
+}
+.map img{
+    width:500px;
+    height: auto;
+    
+}
+.map button{
+    border: none;
+    position: absolute;
+    transform: (-50%,-50%);
+    margin-top: 50px;
+    margin-left: 250px;
+    font-size: px;
+    font-weight: bold;
+    background: white;
+
+}
+.invite{
+    position: relative;
+    width:100%;
+    height:auto;
+}
+.invite img{
+    width:100%;
+    height:auto;
+}
+
+
+
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+@media(max-width:500px){
+    .img-container{
+        position: absolute;
+        top:20px;
+        width: 25%;
+        margin-left: 35%;
+    
+    }
+}
+@media(max-width:500px){
+    .divfunction{
+        position: relative;
+        background:white;
+        width:100%;
+        height:2380px;
+    }
+    .funcimg{
+        width: 300px;
+        height:200px;
+        margin-top: 50px;
+        margin-left: 50px;
+        background:rgb(251, 130, 150);
+        
+    }
+    .funcimg img{
+        width:290px;
+        height:auto;
+        padding-top: 21px;
+        padding-left: 10px;
+        background: rgb(251, 130, 150);
+        border: 10px;
+        border-bottom: rgb(251, 130, 150);
+    }
+}
+@media(max-width:500px){
+    .text-container h3{
+        padding-top: 54px;
+    padding-left: 0px;
+    
+    font-size:40px;
+    font-family:'Dancing Script';
+    text-align: center;
+    color: blueviolet;
+    }
+
+    .text-container h4{
+        padding-top:8px;
+        padding-left:150px;
+        letter-spacing: 2px;
+       
+        font-size:15px;
+        font-family:'Dancing Script';
+        font-style: italic;
+        color: brown;
+    }
+    .save {
+        position: absolute;
+        top:155px;
+        margin-left: 280px;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        background: #1E90FF;
+        width: 90px;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0,0.1)
+        
+        
+    
+      }
+    .timer {
+        padding-top: 8px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        padding-left:110px;
+        color: rgb(26, 0, 105);
+        width:100%;
+      }
+      .divmale{
+        position: relative;
+        background:#dcdddf;
+        width:100%;
+        height: 150px;
+        top:-4px;
+    }
+    .imgmale{
+        position: absolute;
+        top: 0;
+    }
+    .imgmale img{
+        width:125px;
+        padding-top: 25px;
+        padding-left: 25px;
+    
+    
+    }
+    .textmale{
+        position: absolute;
+        width:350px;
+        height:50px
+    }
+    .textmale h2{
+        padding-top: 65px;
+        font-size: 15px;
+        padding-left: 200px;
+        font-family:'Dancing Script';
+    
+    }
+    
+    .divfemale{
+        position: relative;
+        background:#dcdddf;
+        width:100%;
+        height: 150px;
+        
+    }
+    .imgfemale{
+        position: absolute;
+        top: 0;
+        
+    
+    }
+    .imgfemale img{
+        width:100px;
+        padding-top: 25px;
+        margin-left: 260px;
+    }
+    .textfemale{
+        position: absolute;
+        width:200px;
+        height:50px;
+    }
+    .textfemale h2{
+        padding-top: 65px;
+        font-size: 15px;
+        padding-left: 100px;
+        font-family:'Dancing Script';
+    } 
+    .divfunction h1{
+        padding-top: 30px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .nichyam{
+        width:100%;
+        height:auto;
+        
+    }
+    .nichyam img{
+        width:300px;
+        height:auto;
+        margin-top: 45px;
+        margin-left: 50px;
+    }
+    .rec img{
+        width:300px;
+        height:auto;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    .upa img{
+        width:300px;
+        height:auto;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    .muhr img{
+        width:300px;
+        height:auto;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    .adress img{
+        width: 300px;
+        height:auto;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+        
+    .map img{
+        border: none;
+        position: absolute;
+        width:300px;
+        transform: (-50%,-50%);
+        margin-top: -42px;
+        margin-left: -200px;
+        background: white;
+    
+    }
+    
+    
+}
+@media(max-width:370px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .img-container{
+        position: absolute;
+        top:15px;
+        width: 25%;
+        margin-left: 35%;
+    
+    }
+    .text-container{
+        position: absolute;
+        top:40px;
+        width:360px;
+        height:auto;
+        
+    }
+    .save {
+        position: absolute;
+        top:145px;
+        margin-left: 270px;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        background: #1E90FF;
+        width: 65px;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0,0.1)
+}
+.nichyam{
+    width:100%;
+    height:auto;
+    
+}
+.nichyam img{
+    width:300px;
+    height:auto;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+.rec img{
+    width:300px;
+    height:auto;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.upa img{
+    width:300px;
+    height:auto;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.muhr img{
+    width:300px;
+    height:auto;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.adress img{
+    width: 300px;
+    height:auto;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+    
+.map img{
+    border: none;
+    position: absolute;
+    width:300px;
+    transform: (-50%,-50%);
+    margin-top: -42px;
+    margin-left: -200px;
+    background: white;
+
+}
+.funcimg{
+    width: 300px;
+    height:200px;
+    margin-top: 50px;
+    margin-left: 30px;
+    background:rgb(251, 130, 150);
+    
+}
+.funcimg img{
+    width:290px;
+    height:auto;
+    padding-top: 21px;
+    padding-left: 10px;
+    background: rgb(251, 130, 150);
+    border: 10px;
+    border-bottom: rgb(251, 130, 150);
+}
+.map img{
+    border: none;
+    position: absolute;
+    width:300px;
+    transform: (-50%,-50%);
+    margin-top: -30px;
+    margin-left: -220px;
+    background: white;
+
+}
+.imgfemale img{
+    width:100px;
+    padding-top: 25px;
+    margin-left: 250px;
+}
+}
+
